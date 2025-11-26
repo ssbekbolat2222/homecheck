@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Советник по Домам</title>
+    <link rel="stylesheet" href="static/styles/styles.css">
+    <link rel="icon" type="image/png" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fhabr.com%2Fru%2Farticles%2F158483%2F&psig=AOvVaw34sv_Ez8nv7Fl1-9-9tfRX&ust=1764257925596000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPj8-4qTkJEDFQAAAAAdAAAAABAE">
+</head>
+<body>
+    <header>
+        <h1>Советник По Выбору Дома</h1>
+        <p>Расскажи о семье и доме мечты</p>
+        <a href="home.html" class="back-btn">← На главную</a>
+    </header>
+
+    <main>
+        <form id="house-form">
+            <div class="input-block">
+                <label>Количество членов семьи:</label>
+                <input id="familySize" type="number">
+            </div>
+
+            <div class="input-block">
+                <label>Площадь дома (м²):</label>
+                <input id="area" type="number">
+            </div>
+
+            <div class="input-block">
+                <label>Количество комнат:</label>
+                <input id="rooms" type="number">
+            </div>
+
+            <div class="input-block">
+                <label>Бюджет:</label>
+                <input id="budget" type="number">
+            </div>
+
+            <div class="input-block">
+                <label>Особые требования:</label>
+                <textarea id="requirements"></textarea>
+            </div>
+
+            <button type="submit">Получить совет</button>
+        </form>
+
+        <section id="result">
+            <h2>Ответ ИИ</h2>
+            <div class="ai-response" id="ai-response">Здесь появится мнение робота</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>ИИ не несет ответственности, если соседи оказываются фанатами перфоратора.</p>
+    </footer>
+
+    <script src="static/scripts/script.js"></script>
+</body>
+</html>

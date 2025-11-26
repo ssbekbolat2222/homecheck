@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+body {
+  background-image: linear-gradient(rgba(1, 36, 175, 0.5), rgba(1, 36, 175, 0.5)),
+                    url("https://krisha-photos.kcdn.online/content/38/16845614455fc0b717-412--2021chastnyy-dom-vs-kvartira-sravnivaem-ceny-v-almaty.jpg");
+  background-size: cover;
+  background-position: center;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav .btn {
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+nav .btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+
+.cta-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    background: #4b6cb7;
+    color: #000;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1, h2, h3, p, a, button {
+  color: #b3b8ff;
+}
